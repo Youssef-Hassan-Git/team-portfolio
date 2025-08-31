@@ -3,6 +3,7 @@ import { Slide } from 'react-awesome-reveal'
 import startFramework from '../../assets/images/startframework.png'
 import games from '../../assets/images/games.png'
 import ecommerce from '../../assets/images/commerce.png'
+import freshcart from '../../assets/images/freshcart.webp'
 export default function Projects() {
   return (
     <>
@@ -28,6 +29,15 @@ export default function Projects() {
 </div>
  
  <div className='grid md:grid-cols-3 grid-cols-1 items-center justify-center py-15 gap-4 p-5'>
+  {/* first project */}
+  <div className=' bg-gray-800 rounded-xl p-4 hover:scale-105 transition-all duration-300 shadow-xl shadow-gray-700'>
+    <img className='w-10/12 mx-auto' src={freshcart} alt="startFramework" />
+    <p className='text-white text-center text-xl p-3 '>Freshcart e-commerce website made by using React.js and Tailwind CSS deployed on vercel</p>
+    <div className='flex justify-center items-center gap-4'>
+      <button className='bg-blue-500 text-white px-4 py-2 rounded-md'><a target='_blank' href="https://github.com/Youssef-Hassan-Git/E-commerce-React-Freshcart"><i className='fa-brands fa-github pe-2'></i>Github</a></button>
+      <button className='bg-blue-500 text-white px-4 py-2 rounded-md'><a target='_blank' href="https://team-portfolio-guqb.vercel.app/"><i className='fa-solid fa-globe pe-2'></i>Live Demo</a></button>
+    </div>
+  </div>
   {/* first project */}
   <div className=' bg-gray-800 rounded-xl p-4 hover:scale-105 transition-all duration-300 shadow-xl shadow-gray-700'>
     <img className='w-10/12 mx-auto' src={startFramework} alt="startFramework" />
